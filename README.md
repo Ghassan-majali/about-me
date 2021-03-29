@@ -9,7 +9,8 @@
 
 - at this time i used what just learn from our teacher 'Samer'
 
-###
+### Reflections and Comments :
+
 - How did this go, overall?
 not so bad i still need to write and see more codes to know how it work .
 
