@@ -12,13 +12,13 @@
 ### Reflections and Comments :
 
 - How did this go, overall?
-not so bad i still need to write and see more codes to know how it work .
+it's to bad to be honest i found to many ways but i still not rech to the final that i need  .
 
 - What observations or questions do you have about what you’ve learned so far?
 to know i don't have any question everything is clear but it need more time to find or understand what i learnd .
 
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
-it take 3 hours but in Separated time , but i think it needs maximum 1 hour
+it takes too mush time and the result not good so far 
 
 
 
