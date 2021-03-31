@@ -104,7 +104,7 @@ if (witherLove.toLowerCase() == "yes" || witherLove.toLowerCase() == "y") {
 }} fiveQuestion();
 
 // six question
-
+ function sixQuestion(){
 alert('guess number between 1 and 10 ...you have 4 attempets to try');
 
 let gussed = null;
@@ -137,6 +137,7 @@ for (let i = 0; i < 4; i++) {
         alert('correct answer 7')
     }
 }
+}  sixQuestion();
 
 // 7 quesion 
 
