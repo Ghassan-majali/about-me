@@ -1,5 +1,5 @@
 'use strict'
-
+let score = 0;
 // wellcome alert 
 
 let userName = prompt('tab your name please ');
@@ -14,7 +14,7 @@ alert('first of all let me ask you a few questions about me to see if u will hav
 function firstQuestion() {
 
 
-    let score = 0;
+    
 
     let myAge = prompt("do you think i'm older than 28 ?");
     if (myAge.toLowerCase() == "yes" || myAge.toLowerCase() == "y") {
@@ -32,6 +32,8 @@ firstQuestion();
 
 // second question 
 
+function secondQuestion(){
+
 let myStudy = prompt('do i study in the same Field ? ');
 if (myStudy.toLowerCase() == "yes" || myStudy.toLowerCase() == "y") {
     alert("good answer");
@@ -44,6 +46,9 @@ if (myStudy.toLowerCase() == "yes" || myStudy.toLowerCase() == "y") {
 } else {
     alert("Enter only yes ' y or no ' n .");
 }
+}
+secondQuestion();
+
 // third question 
 
 let myJob = prompt('do i have work in programming befor ?');
