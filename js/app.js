@@ -85,7 +85,10 @@ function fourQuestion(){
     }
 }
 fourQuestion();
+
 // five question 
+
+function fiveQuestion(){
 
 let witherLove = prompt('do i love winter ?');
 if (witherLove.toLowerCase() == "yes" || witherLove.toLowerCase() == "y") {
@@ -98,7 +101,7 @@ if (witherLove.toLowerCase() == "yes" || witherLove.toLowerCase() == "y") {
     // console.log(witherLove);
 } else {
     alert("Enter only yes ' y or no ' n .");
-}
+}} fiveQuestion();
 
 // six question
 
