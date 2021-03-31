@@ -83,25 +83,36 @@ if(witherLove.toLowerCase() == "yes" || witherLove.toLowerCase() == "y"){
 
 // six question
 
-let number = prompt (' Guess a number from 1 to 10 : ');
-let guessed = 7
-for (let i = 0; i < 4; i++) {
-    
-    
-if (number == guessed) {
-    alert ('You guessed the correct number.');
-    score++
-break ;
+alert('guess number between 1 and 10 ...you have 4 attempets to try');
 
-}else if( number > guessed){
+let gussed = null ;
+
+for (let i = 0; i < 4; i++) {
+     gussed = prompt (' Guess a number from 1 to 10 : ');
+     gussed = parseInt(gussed);
+
+if (gussed >= 5 && gussed < 7 ) {
+    alert (' low but too close');
+}else if( gussed <= 9 && gussed > 7){
     alert (' you are to close , try a smaler number ');
 }
-else if (number < guessed) {
+else if (gussed > 7 ) {
 
-    alert ('try higher num ');
+    gussed= alert ('too high num ');
+}else if (gussed < 7 ) {
+
+        gussed= alert ('too low num ');
+    }
+else if (gussed ===7 ){
+    alert ('you are in fire' )
+    break;
+     score++
 }
 else {
-    alert ('correct answer is 7 ')
+    alert ('sry try again ')
+}
+if (i===3){
+    alert('correct answer 7')
 }
 }
 
