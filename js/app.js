@@ -127,8 +127,9 @@ for (let i = 0; i < 4; i++) {
     }
     else if (gussed === 7) {
         alert('you are in fire')
+        
+        score++;
         break;
-        score++
     }
     else {
         alert('sry try again ')
@@ -141,11 +142,12 @@ for (let i = 0; i < 4; i++) {
 
 // 7 quesion 
 
-let theAnswer = ['BMW', 'MERCEDES', 'FERRARI', 'LUXES', 'BUGATTI', 'RANGEROVER', 'DODGE', 'TOYOTA',]
+function sevenQuesion()
+{
+    let theAnswer = ['BMW', 'MERCEDES', 'FERRARI', 'LUXES', 'BUGATTI', 'RANGEROVER', 'DODGE', 'TOYOTA',]
 
 
 for (let i = 0; i < 6; i++) {
-
 
     let userAnswer = prompt('what is your best car ?');
     userAnswer = userAnswer.toUpperCase();
@@ -160,6 +162,8 @@ for (let i = 0; i < 6; i++) {
         }
     }
 }
+} 
+sevenQuesion();
 
 // wellcome masseg 
 
