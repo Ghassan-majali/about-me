@@ -50,7 +50,8 @@ if (myStudy.toLowerCase() == "yes" || myStudy.toLowerCase() == "y") {
 secondQuestion();
 
 // third question 
-
+function thirdQuestion()
+{
 let myJob = prompt('do i have work in programming befor ?');
 if (myJob.toLowerCase() == "yes" || myJob.toLowerCase() == "y") {
     alert("sorry");
@@ -63,6 +64,9 @@ if (myJob.toLowerCase() == "yes" || myJob.toLowerCase() == "y") {
 } else {
     alert("Enter only yes ' y or no ' n .");
 }
+}
+thirdQuestion();
+
 // four question 
 
 let food = prompt('do i love food ?');
