@@ -68,19 +68,23 @@ if (myJob.toLowerCase() == "yes" || myJob.toLowerCase() == "y") {
 thirdQuestion();
 
 // four question 
+function fourQuestion(){
 
-let food = prompt('do i love food ?');
-if (food.toLowerCase() == "yes" || food.toLowerCase() == "y") {
-    alert("woow");
-    score++
-
-    // console.log(food);
-} else if (food.toLowerCase() == "no" || food.toLowerCase() == "n") {
-    alert("everybody love food");
-    // console.log(food);
-} else {
-    alert("Enter only yes ' y or no ' n .");
+    
+    let food = prompt('do i love food ?');
+    if (food.toLowerCase() == "yes" || food.toLowerCase() == "y") {
+        alert("woow");
+        score++
+    
+        // console.log(food);
+    } else if (food.toLowerCase() == "no" || food.toLowerCase() == "n") {
+        alert("everybody love food");
+        // console.log(food);
+    } else {
+        alert("Enter only yes ' y or no ' n .");
+    }
 }
+fourQuestion();
 // five question 
 
 let witherLove = prompt('do i love winter ?');
