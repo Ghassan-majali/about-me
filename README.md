@@ -22,5 +22,5 @@ to know i don't have any question everything is clear but it need more time to f
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 it takes too mush time and the result not good so far 
 
-
-
+I was Navigator on: Ghassan Al-majali
+I was Driver on:  Noor Azar [https://github.com/Ghassan-majali/about-me/pull/1]
